@@ -1,0 +1,48 @@
+doctype html
+head
+  meta(http-equiv='content-type' content='text/html; charset=UTF-8')
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(name='description' content='')
+  meta(name='author' content='Jaime Manteiga')
+  title Smart eInk Frame - Administration Panel
+  // Bootstrap core CSS
+  link(href='/assets/bootstrap.css' rel='stylesheet')
+  // Custom styles for this template
+  link(href='/assets/album.css' rel='stylesheet')
+
+  // Placed at the end of the document so the pages load faster
+script(src='/assets/jquery-3.js')
+script.
+  window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\\/script>')
+script(src='./assets/popper.js')
+script(src='./assets/bootstrap.js')
+script(src='./assets/functions.js')
+svg(xmlns='http://www.w3.org/2000/svg' width='348' height='225' viewbox='0 0 348 225' preserveaspectratio='none' style='display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;')
+  defs
+    style(type='text/css').
+  text(x='0' y='17' style='font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif') Thumbnail
+
+
+header
+  #navbarHeader.collapse.bg-dark
+    .container
+      .row
+        .col-sm-8.col-md-7.py-4
+          h4.text-white Motivation Frame
+          p.text-muted
+            | Smart frame using eInk to render motivational images from reddit. This
+            | is an experimental project — expect tons of bugs :-)
+
+
+  .navbar.navbar-dark.bg-dark.box-shadow
+    .container.d-flex.justify-content-between
+      a.navbar-brand.d-flex.align-items-center(href='/')
+        svg.mr-2(xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewbox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
+          path(d='M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z')
+          circle(cx='12' cy='13' r='4')
+        strong Smart eInk Frame - Administration Panel
+      button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarHeader' aria-controls='navbarHeader' aria-expanded='false' aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+main(role='main')
+    block content
