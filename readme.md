@@ -9,7 +9,7 @@ The hardware used was:
 1. Pi Zero W (I bought it used from ebay: ~8 USD)  
 2. e-Ink Display (~45 USD)  
 3. Office Depot Battery (~2 USD) 
-4. Wooden Structure (Got few items from Michael's and a closed friend helped me design it: ~10 USD) 
+4. Wooden Structure (Got few items from Michael's and a close friend helped me design it: ~10 USD) 
 
 Software: 
 
