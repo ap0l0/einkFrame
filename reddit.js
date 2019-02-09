@@ -28,11 +28,11 @@ let db = new sqlite3.Database('motiframe.db', (err) => {
 /**************************************/
 // Create a new snoowrap requester with OAuth credentials.
 // For more information on getting credentials, see here: https://github.com/not-an-aardvark/reddit-oauth-helper
-const r = new snoowrap({
+const r = new snoowrap({ //You need to add your reddit oauth here
   userAgent: 'MotiFrame/Bot v1',
-  clientId: 'sh920Oc2ft1siw',
-  clientSecret: 'vDQwW_TwVFyfZraGeVHA2uJBGtY',
-  refreshToken: '57083482-j1q2HxrB32jA1KBud-93b4-Dsl0'
+  clientId: '',
+  clientSecret: '',
+  refreshToken: ''
 });
 
 
