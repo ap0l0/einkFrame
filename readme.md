@@ -2,6 +2,8 @@
 
 Crafted a simple device that shows daily motivational images. This is my first hardware project ever, and I wanted to create something practical and useful. Below are the details and products I used for this project: 
 
+For more details for to: [https://hackaday.io/project/163812-e-ink-motivational-book](HackIO Project) 
+
 The hardware used was: 
 
 1. Pi Zero W (I bought it used from ebay: ~8 USD)  
